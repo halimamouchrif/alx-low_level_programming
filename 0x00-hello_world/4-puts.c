@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * @brief This is the main function.
+ * This is the main function.
  *
  * @return int Returns 0 on successful execution.
  */
