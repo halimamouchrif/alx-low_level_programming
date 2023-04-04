@@ -1,23 +1,18 @@
 #include<stdio.h>
 
 /**
- * main - prints the alphabet in lower case except q and e
+ * main - prints number from 0 to 9
  *
  * Return: returns always 0
  */
 int main(void)
 {
-	char alp;
+	int x;
 
-	for (alp = 'a'; alp <= 'z'; alp++)
-	{
-		if (alp != 'q' && alp != 'e')
-		{
-			putchar(alp);
-		}
-	}
+	for (x=0; x<10; x++)
+		printf("%d",x);
 
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
