@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * This is the main function.
+ * main - Prints "Programming is like building a multilingual puzzle",
+ *                followed by a new line, to standard error.
  *
- * @return int Returns 0 on successful execution.
- */
+ * Return: 0.
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
