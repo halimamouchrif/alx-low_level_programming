@@ -1,4 +1,10 @@
 #include<stdio.h>
+/**
+ * main - Prints the size of many primitif types,
+ *                to standard error.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	printf("Size of a char: %d bytes(s)",sizeof(char));
