@@ -17,7 +17,7 @@ int main(void)
 		y++;
 	}
 	
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
