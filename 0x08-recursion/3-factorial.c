@@ -2,7 +2,7 @@
 
 /**
  * factorial - returns the factorial of a given number.
- * @i: an int
+ * @n: a number of type int
  * Return: returns int
  */
 
