@@ -10,7 +10,7 @@ int prime_check(int x, int y)
 	
 	if (x % y == 0 || y < x)
 		return (0);
-	else if (x == y)
+	else if (x > y)
 		return (1);
 	else
 		return (prime_check(x, y+1));
