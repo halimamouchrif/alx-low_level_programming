@@ -8,9 +8,9 @@
 int prime_check(int x, int y)
 {
 	
-	if (x % y == 0)
+	if (x < 2 || x % y == 0)
 		return (0);
-	else if (y > x)
+	else if (y > x/2)
 		return (1);
 	else
 		return (prime_check(x, y+1));
@@ -22,7 +22,7 @@ int prime_check(int x, int y)
  */
 int is_prime_number(int n)
 {
-	if (n == 1)
-		return (0);
+	if (n == 2)
+		return (1);
 	return (prime_check(n, 2));
 }
