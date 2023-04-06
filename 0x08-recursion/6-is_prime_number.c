@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * calcul_sqrt - checks if the number is prime
+ * prime_check - checks if the number is prime
  * @x: a number of type int
  * @y: a number of type int
  * Return: a number of type int
