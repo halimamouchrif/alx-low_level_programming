@@ -10,9 +10,10 @@ int prime_check(int x, int y)
 	
 	if (x % y == 0 || y < x)
 		return (0);
-	if (x == y)
+	else if (x == y)
 		return (1);
-	return (prime_check(x, y+1));
+	else
+		return (prime_check(x, y+1));
 }
 /**
  * is_prime_number - returns 1 if the input integer is a prime number, otherwise return 0.
