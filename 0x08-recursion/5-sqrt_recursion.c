@@ -12,7 +12,7 @@ int calcul_sqrt(int x, int y)
 		return (x);
 	if (x * x > y)
 		return (-1);
-	return (check(x + 1, y));
+	return (calcul_sqrt(x + 1, y));
 }
 
 /**
