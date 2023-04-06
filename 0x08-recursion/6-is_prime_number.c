@@ -8,7 +8,7 @@
 int prime_check(int x, int y)
 {
 	
-	if (x % y == 0 || y < x)
+	if (x % y == 0)
 		return (0);
 	else if (y > x)
 		return (1);
